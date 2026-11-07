@@ -1,0 +1,95 @@
+=== 14:11:15 ===
+NAME               REFERENCE                 TARGETS            MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp-hpa   Deployment/scaletestapp   memory: 104%/80%   1         10        2          2m52s
+scaletestapp   3/3     3            3           8m7s
+=== 14:11:25 ===
+NAME               REFERENCE                 TARGETS            MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp-hpa   Deployment/scaletestapp   memory: 104%/80%   1         10        3          3m2s
+scaletestapp   3/3     3            3           8m17s
+=== 14:11:35 ===
+NAME               REFERENCE                 TARGETS            MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp-hpa   Deployment/scaletestapp   memory: 104%/80%   1         10        3          3m12s
+scaletestapp   3/3     3            3           8m27s
+=== 14:11:45 ===
+NAME               REFERENCE                 TARGETS            MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp-hpa   Deployment/scaletestapp   memory: 104%/80%   1         10        3          3m22s
+scaletestapp   3/3     3            3           8m37s
+=== 14:11:56 ===
+NAME               REFERENCE                 TARGETS            MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp-hpa   Deployment/scaletestapp   memory: 104%/80%   1         10        3          3m33s
+scaletestapp   3/3     3            3           8m48s
+=== 14:12:06 ===
+NAME               REFERENCE                 TARGETS            MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp-hpa   Deployment/scaletestapp   memory: 104%/80%   1         10        3          3m43s
+scaletestapp   3/3     3            3           8m58s
+=== 14:12:16 ===
+NAME               REFERENCE                 TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp-hpa   Deployment/scaletestapp   memory: 81%/80%   1         10        3          3m53s
+scaletestapp   3/3     3            3           9m8s
+=== 14:12:26 ===
+NAME               REFERENCE                 TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp-hpa   Deployment/scaletestapp   memory: 81%/80%   1         10        3          4m3s
+scaletestapp   3/3     3            3           9m18s
+=== 14:12:36 ===
+NAME               REFERENCE                 TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp-hpa   Deployment/scaletestapp   memory: 81%/80%   1         10        3          4m13s
+scaletestapp   3/3     3            3           9m28s
+=== 14:12:46 ===
+NAME               REFERENCE                 TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp-hpa   Deployment/scaletestapp   memory: 81%/80%   1         10        3          4m23s
+scaletestapp   3/3     3            3           9m38s
+=== 14:12:56 ===
+NAME               REFERENCE                 TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp-hpa   Deployment/scaletestapp   memory: 81%/80%   1         10        3          4m33s
+scaletestapp   3/3     3            3           9m48s
+=== 14:13:06 ===
+NAME               REFERENCE                 TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp-hpa   Deployment/scaletestapp   memory: 81%/80%   1         10        3          4m44s
+scaletestapp   3/3     3            3           9m59s
+=== 14:13:17 ===
+NAME               REFERENCE                 TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp-hpa   Deployment/scaletestapp   memory: 81%/80%   1         10        3          4m54s
+scaletestapp   3/3     3            3           10m
+=== 14:13:27 ===
+NAME               REFERENCE                 TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp-hpa   Deployment/scaletestapp   memory: 81%/80%   1         10        3          5m4s
+scaletestapp   3/3     3            3           10m
+=== 14:13:37 ===
+NAME               REFERENCE                 TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp-hpa   Deployment/scaletestapp   memory: 81%/80%   1         10        3          5m14s
+scaletestapp   3/3     3            3           10m
+=== 14:13:47 ===
+NAME               REFERENCE                 TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp-hpa   Deployment/scaletestapp   memory: 81%/80%   1         10        3          5m24s
+scaletestapp   3/3     3            3           10m
+=== 14:13:57 ===
+NAME               REFERENCE                 TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp-hpa   Deployment/scaletestapp   memory: 81%/80%   1         10        3          5m34s
+scaletestapp   3/3     3            3           10m
+=== 14:14:07 ===
+NAME               REFERENCE                 TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp-hpa   Deployment/scaletestapp   memory: 81%/80%   1         10        3          5m44s
+scaletestapp   3/3     3            3           10m
+=== 14:14:17 ===
+NAME               REFERENCE                 TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp-hpa   Deployment/scaletestapp   memory: 81%/80%   1         10        3          5m55s
+scaletestapp   3/3     3            3           11m
+=== 14:14:28 ===
+NAME               REFERENCE                 TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp-hpa   Deployment/scaletestapp   memory: 81%/80%   1         10        3          6m5s
+scaletestapp   3/3     3            3           11m
+=== 14:14:38 ===
+NAME               REFERENCE                 TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp-hpa   Deployment/scaletestapp   memory: 81%/80%   1         10        3          6m15s
+scaletestapp   3/3     3            3           11m
+=== 14:14:48 ===
+NAME               REFERENCE                 TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp-hpa   Deployment/scaletestapp   memory: 81%/80%   1         10        3          6m25s
+scaletestapp   3/3     3            3           11m
+
+=== ИТОГ ЧАСТИ 1 ===
+Нагрузка: locust --headless -u 500 -r 50 --run-time 300s (GET / с интервалом 1-5 c)
+Результат: 48763 запроса, 0 ошибок, ~170 RPS
+Скейлинг: 1 реплика -> 2 (memory 153%/80%) -> 3 (стабилизация 81%/80%)
+NAME               REFERENCE                 TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp-hpa   Deployment/scaletestapp   memory: 81%/80%   1         10        3          6m25s

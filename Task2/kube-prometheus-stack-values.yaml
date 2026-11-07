@@ -1,0 +1,10 @@
+# Task2, часть 2 — values для kube-prometheus-stack
+# Минимальный набор для локального minikube: сбор метрик приложения через ServiceMonitor.
+grafana:
+  enabled: false          # дашборды не требуются, экономим ресурсы кластера
+prometheus:
+  prometheusSpec:
+    serviceMonitorSelectorNilUsesHelmValues: false   # подхватывать ServiceMonitor'ы без helm-лейблов
+    retention: 1d
+alertmanager:
+  enabled: false

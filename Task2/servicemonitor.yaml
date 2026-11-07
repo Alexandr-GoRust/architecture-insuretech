@@ -1,0 +1,18 @@
+# Task2, часть 2 — ServiceMonitor: Prometheus собирает /metrics приложения
+apiVersion: monitoring.coreos.com/v1
+kind: ServiceMonitor
+metadata:
+  name: scaletestapp-sm
+  namespace: default
+  labels:
+    release: prom        # селектор прометея из kube-prometheus-stack
+spec:
+  selector:
+    matchLabels:
+      app: scaletestapp
+  namespaceSelector:
+    matchNames:
+      - default
+  endpoints:
+    - port: metrics      # имя порта из Service
+      interval: 15s

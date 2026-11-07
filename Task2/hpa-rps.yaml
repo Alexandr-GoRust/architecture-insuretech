@@ -1,0 +1,25 @@
+# Task2, часть 2 — HPA по количеству запросов в секунду (RPS)
+#
+# RPS — кастомная per-pod метрика (тип Pods): приложение экспортирует
+# http_requests_total на /metrics, Prometheus её собирает, prometheus-adapter
+# публикует в custom.metrics.k8s.io как http_requests_per_second (rate 30с,
+# привязка к pod через маппинг лейблов). Цель — 10 RPS на один под.
+apiVersion: autoscaling/v2
+kind: HorizontalPodAutoscaler
+metadata:
+  name: scaletestapp-hpa-rps
+spec:
+  scaleTargetRef:
+    apiVersion: apps/v1
+    kind: Deployment
+    name: scaletestapp
+  minReplicas: 1
+  maxReplicas: 10
+  metrics:
+    - type: Pods
+      pods:
+        metric:
+          name: http_requests_per_second
+        target:
+          type: AverageValue
+          averageValue: "10"   # целевое значение RPS на один под
