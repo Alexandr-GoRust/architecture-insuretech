@@ -1,0 +1,182 @@
+=== 14:18:45 ===
+NAME                   REFERENCE                 TARGETS              MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp-hpa-rps   Deployment/scaletestapp   <unknown>/10 (avg)   1         10        5          0s
+scaletestapp   5/5     5            5           15m
+=== 14:18:55 ===
+NAME                   REFERENCE                 TARGETS              MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp-hpa-rps   Deployment/scaletestapp   <unknown>/10 (avg)   1         10        5          10s
+scaletestapp   5/5     5            5           15m
+=== 14:19:06 ===
+NAME                   REFERENCE                 TARGETS              MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp-hpa-rps   Deployment/scaletestapp   <unknown>/10 (avg)   1         10        5          21s
+scaletestapp   5/5     5            5           15m
+=== 14:19:16 ===
+NAME                   REFERENCE                 TARGETS              MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp-hpa-rps   Deployment/scaletestapp   <unknown>/10 (avg)   1         10        5          31s
+scaletestapp   5/5     5            5           16m
+=== 14:19:26 ===
+NAME                   REFERENCE                 TARGETS              MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp-hpa-rps   Deployment/scaletestapp   <unknown>/10 (avg)   1         10        5          41s
+scaletestapp   5/5     5            5           16m
+=== 14:19:36 ===
+NAME                   REFERENCE                 TARGETS              MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp-hpa-rps   Deployment/scaletestapp   <unknown>/10 (avg)   1         10        5          51s
+scaletestapp   5/5     5            5           16m
+=== 14:19:46 ===
+NAME                   REFERENCE                 TARGETS              MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp-hpa-rps   Deployment/scaletestapp   <unknown>/10 (avg)   1         10        5          61s
+scaletestapp   5/5     5            5           16m
+=== 14:19:56 ===
+NAME                   REFERENCE                 TARGETS              MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp-hpa-rps   Deployment/scaletestapp   <unknown>/10 (avg)   1         10        5          71s
+scaletestapp   5/5     5            5           16m
+=== 14:20:06 ===
+NAME                   REFERENCE                 TARGETS              MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp-hpa-rps   Deployment/scaletestapp   <unknown>/10 (avg)   1         10        5          82s
+scaletestapp   5/5     5            5           16m
+=== 14:20:17 ===
+NAME                   REFERENCE                 TARGETS              MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp-hpa-rps   Deployment/scaletestapp   <unknown>/10 (avg)   1         10        5          92s
+scaletestapp   5/5     5            5           17m
+=== 14:20:27 ===
+NAME                   REFERENCE                 TARGETS              MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp-hpa-rps   Deployment/scaletestapp   <unknown>/10 (avg)   1         10        5          102s
+scaletestapp   5/5     5            5           17m
+=== 14:20:37 ===
+NAME                   REFERENCE                 TARGETS              MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp-hpa-rps   Deployment/scaletestapp   <unknown>/10 (avg)   1         10        5          112s
+scaletestapp   5/5     5            5           17m
+=== 14:20:47 ===
+NAME                   REFERENCE                 TARGETS              MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp-hpa-rps   Deployment/scaletestapp   <unknown>/10 (avg)   1         10        5          2m2s
+scaletestapp   5/5     5            5           17m
+=== 14:20:57 ===
+NAME                   REFERENCE                 TARGETS              MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp-hpa-rps   Deployment/scaletestapp   <unknown>/10 (avg)   1         10        5          2m12s
+scaletestapp   5/5     5            5           17m
+=== 14:21:07 ===
+NAME                   REFERENCE                 TARGETS              MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp-hpa-rps   Deployment/scaletestapp   <unknown>/10 (avg)   1         10        5          2m22s
+scaletestapp   5/5     5            5           17m
+=== 14:21:17 ===
+NAME                   REFERENCE                 TARGETS              MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp-hpa-rps   Deployment/scaletestapp   <unknown>/10 (avg)   1         10        5          2m33s
+scaletestapp   5/5     5            5           18m
+=== 14:21:28 ===
+NAME                   REFERENCE                 TARGETS              MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp-hpa-rps   Deployment/scaletestapp   <unknown>/10 (avg)   1         10        5          2m43s
+scaletestapp   5/5     5            5           18m
+=== 14:21:38 ===
+NAME                   REFERENCE                 TARGETS    MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp-hpa-rps   Deployment/scaletestapp   9933m/10   1         10        5          2m53s
+scaletestapp   5/5     5            5           18m
+=== 14:21:48 ===
+NAME                   REFERENCE                 TARGETS     MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp-hpa-rps   Deployment/scaletestapp   10052m/10   1         10        5          3m3s
+scaletestapp   5/5     5            5           18m
+=== 14:21:58 ===
+NAME                   REFERENCE                 TARGETS     MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp-hpa-rps   Deployment/scaletestapp   10052m/10   1         10        5          3m13s
+scaletestapp   5/5     5            5           18m
+=== 14:22:08 ===
+NAME                   REFERENCE                 TARGETS   MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp-hpa-rps   Deployment/scaletestapp   10/10     1         10        5          3m23s
+scaletestapp   5/5     5            5           19m
+=== 14:22:18 ===
+NAME                   REFERENCE                 TARGETS     MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp-hpa-rps   Deployment/scaletestapp   10373m/10   1         10        5          3m33s
+scaletestapp   5/5     5            5           19m
+=== 14:22:28 ===
+NAME                   REFERENCE                 TARGETS     MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp-hpa-rps   Deployment/scaletestapp   10373m/10   1         10        5          3m43s
+scaletestapp   5/5     5            5           19m
+=== 14:22:38 ===
+NAME                   REFERENCE                 TARGETS     MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp-hpa-rps   Deployment/scaletestapp   15306m/10   1         10        5          3m53s
+scaletestapp   8/8     8            8           19m
+=== 14:22:49 ===
+NAME                   REFERENCE                 TARGETS     MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp-hpa-rps   Deployment/scaletestapp   29946m/10   1         10        8          4m4s
+scaletestapp   10/10   10           10          19m
+=== 14:22:59 ===
+NAME                   REFERENCE                 TARGETS     MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp-hpa-rps   Deployment/scaletestapp   29946m/10   1         10        8          4m14s
+scaletestapp   10/10   10           10          19m
+=== 14:23:09 ===
+NAME                   REFERENCE                 TARGETS     MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp-hpa-rps   Deployment/scaletestapp   15667m/10   1         10        10         4m24s
+scaletestapp   10/10   10           10          20m
+=== 14:23:19 ===
+NAME                   REFERENCE                 TARGETS    MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp-hpa-rps   Deployment/scaletestapp   9919m/10   1         10        10         4m34s
+scaletestapp   10/10   10           10          20m
+=== 14:23:29 ===
+NAME                   REFERENCE                 TARGETS    MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp-hpa-rps   Deployment/scaletestapp   9919m/10   1         10        10         4m44s
+scaletestapp   10/10   10           10          20m
+=== 14:23:39 ===
+NAME                   REFERENCE                 TARGETS     MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp-hpa-rps   Deployment/scaletestapp   10132m/10   1         10        10         4m54s
+scaletestapp   10/10   10           10          20m
+=== 14:23:49 ===
+NAME                   REFERENCE                 TARGETS     MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp-hpa-rps   Deployment/scaletestapp   10091m/10   1         10        10         5m4s
+scaletestapp   10/10   10           10          20m
+=== 14:24:00 ===
+NAME                   REFERENCE                 TARGETS     MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp-hpa-rps   Deployment/scaletestapp   10091m/10   1         10        10         5m15s
+scaletestapp   10/10   10           10          20m
+=== 14:24:10 ===
+NAME                   REFERENCE                 TARGETS    MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp-hpa-rps   Deployment/scaletestapp   9954m/10   1         10        10         5m25s
+scaletestapp   10/10   10           10          21m
+=== 14:24:20 ===
+NAME                   REFERENCE                 TARGETS    MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp-hpa-rps   Deployment/scaletestapp   9905m/10   1         10        10         5m35s
+scaletestapp   10/10   10           10          21m
+=== 14:24:30 ===
+NAME                   REFERENCE                 TARGETS    MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp-hpa-rps   Deployment/scaletestapp   9905m/10   1         10        10         5m45s
+scaletestapp   10/10   10           10          21m
+=== 14:24:40 ===
+NAME                   REFERENCE                 TARGETS     MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp-hpa-rps   Deployment/scaletestapp   10068m/10   1         10        10         5m55s
+scaletestapp   10/10   10           10          21m
+=== 14:24:50 ===
+NAME                   REFERENCE                 TARGETS     MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp-hpa-rps   Deployment/scaletestapp   10033m/10   1         10        10         6m5s
+scaletestapp   10/10   10           10          21m
+=== 14:25:00 ===
+NAME                   REFERENCE                 TARGETS     MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp-hpa-rps   Deployment/scaletestapp   10033m/10   1         10        10         6m15s
+scaletestapp   10/10   10           10          21m
+=== 14:25:10 ===
+NAME                   REFERENCE                 TARGETS    MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp-hpa-rps   Deployment/scaletestapp   9906m/10   1         10        10         6m26s
+scaletestapp   10/10   10           10          22m
+=== 14:25:21 ===
+NAME                   REFERENCE                 TARGETS    MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp-hpa-rps   Deployment/scaletestapp   9958m/10   1         10        10         6m36s
+scaletestapp   10/10   10           10          22m
+=== 14:25:31 ===
+NAME                   REFERENCE                 TARGETS     MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp-hpa-rps   Deployment/scaletestapp   10094m/10   1         10        10         6m46s
+scaletestapp   10/10   10           10          22m
+=== 14:25:41 ===
+NAME                   REFERENCE                 TARGETS     MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp-hpa-rps   Deployment/scaletestapp   10094m/10   1         10        10         6m56s
+scaletestapp   10/10   10           10          22m
+=== 14:25:51 ===
+NAME                   REFERENCE                 TARGETS    MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp-hpa-rps   Deployment/scaletestapp   9773m/10   1         10        10         7m6s
+scaletestapp   10/10   10           10          22m
+=== 14:26:01 ===
+NAME                   REFERENCE                 TARGETS    MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp-hpa-rps   Deployment/scaletestapp   5252m/10   1         10        10         7m16s
+scaletestapp   10/10   10           10          22m
+=== ИТОГ ЧАСТИ 2 ===
+Нагрузка: locust --headless -u 300 -r 30 --run-time 210s (~95 RPS суммарно)
+Метрика HPA: http_requests_per_second (Prometheus + prometheus-adapter), цель 10 RPS/под
+Скейлинг: 5 -> 10 реплик (10132m/10 => превышение цели ~10 RPS/под, достигнут maxReplicas)
+NAME                   REFERENCE                 TARGETS    MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp-hpa-rps   Deployment/scaletestapp   5252m/10   1         10        10         7m25s

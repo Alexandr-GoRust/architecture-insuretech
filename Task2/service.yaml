@@ -1,0 +1,18 @@
+# Task2, часть 1 — Service для доступа к приложению
+apiVersion: v1
+kind: Service
+metadata:
+  name: scaletestapp
+  labels:
+    app: scaletestapp
+spec:
+  type: ClusterIP
+  selector:
+    app: scaletestapp
+  ports:
+    - name: http
+      port: 80
+      targetPort: 8080
+    - name: metrics
+      port: 8080
+      targetPort: 8080

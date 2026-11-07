@@ -1,0 +1,30 @@
+# Task2, часть 1 — Deployment тестового приложения
+# Образ: ghcr.io/yandex-practicum/scaletestapp (порты 8080: GET / и GET /metrics)
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: scaletestapp
+  labels:
+    app: scaletestapp
+spec:
+  replicas: 1                  # начальное количество реплик — 1 (по заданию)
+  selector:
+    matchLabels:
+      app: scaletestapp
+  template:
+    metadata:
+      labels:
+        app: scaletestapp
+    spec:
+      containers:
+        - name: scaletestapp
+          image: ghcr.io/yandex-practicum/scaletestapp:latest
+          ports:
+            - containerPort: 8080
+          resources:
+            # requests нужны для расчёта утилизации в HPA
+            # (utilization = usage / requests)
+            requests:
+              memory: "15Mi"
+            limits:
+              memory: "30Mi"   # лимит памяти — 30Mi (по заданию)

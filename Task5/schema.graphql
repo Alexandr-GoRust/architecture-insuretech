@@ -1,0 +1,75 @@
+# Task5 — GraphQL API сервиса client-info
+#
+# Перевод REST API (Swagger) на GraphQL.
+#
+# REST-контракт покрывали три ресурса:
+#   GET /clients/{id}            -> Client
+#   GET /clients/{id}/documents  -> [Document]
+#   GET /clients/{id}/relatives  -> [Relative]
+#
+# В GraphQL вместо трёх отдельных запросов — один эндпоинт и одна точка входа
+# client(id): потребитель сам указывает, какие поля и связанные сущности
+# ему нужны. Это устраняет проблему 500-атрибутной карточки клиента:
+# не нужно ни дробить API на десятки ресурсов, ни тянуть всё сразу.
+
+# ---------- Типы (definitions из Swagger) ----------
+
+"""Клиент — корневая сущность ( эквивалент GET /clients/{id})"""
+type Client {
+  id: ID!
+  name: String
+  age: Int
+
+  # Вложенные сущности — эквиваленты отдельных REST-ресурсов.
+  # Запрашиваются опционально и только те, что нужны сценарию.
+  documents: [Document]   # GET /clients/{id}/documents
+  relatives: [Relative]   # GET /clients/{id}/relatives
+}
+
+"""Документ клиента (GET /clients/{id}/documents)"""
+type Document {
+  id: ID!
+  type: String
+  number: String
+  issueDate: String   # дата выдачи
+  expiryDate: String  # дата окончания
+}
+
+"""Родственник клиента (GET /clients/{id}/relatives)"""
+type Relative {
+  id: ID!
+  relationType: String  # тип родства
+  name: String
+  age: Int
+}
+
+# ---------- Запросы ----------
+
+type Query {
+  """Получить клиента по ID. Через вложенные поля доступны документы
+  и родственники — отдельно ходить за ними больше не нужно."""
+  client(id: ID!): Client
+
+  # Точечные query-обёртки сохранены для обратной совместимости
+  # потребителей, которым нужны только связанные сущности.
+  clientDocuments(id: ID!): [Document]
+  clientRelatives(id: ID!): [Relative]
+}
+
+# ---------- Примеры запросов для сценариев ----------
+
+# Сценарий 1 (нужны только базовые данные клиента):
+#   query { client(id: "42") { id name age } }
+#
+# Сценарий 2 (карточка клиента с документами и родственниками — один запрос
+# вместо трёх REST-вызовов):
+#   query {
+#     client(id: "42") {
+#       name
+#       documents { type number expiryDate }
+#       relatives { relationType name }
+#     }
+#   }
+#
+# Сценарий 3 (проверка одного документа — минимальный трафик):
+#   query { clientDocuments(id: "42") { type number } }
